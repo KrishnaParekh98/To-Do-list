@@ -2,14 +2,17 @@ body{
     padding: 0;
     margin: 0;
     background-image: url('../img/bg1.jpg');
-    font-family:'Permanent Marker', cursive;
+    font-family: 'Titillium Web', sans-serif;
+	
 }
+
 .container{
     padding:10px;
     width:380px;
     margin:0 auto;
-	
 }
+
+
 .header{
     width: 380px;
     height:200px;
@@ -39,10 +42,12 @@ body{
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: #fff;
+    color: #FFF;
     font-size: 25px;
     font-family:'Permanent Marker', cursive;
 }
+
+
 .content{
     width:380px;
     height: 350px;
@@ -80,6 +85,16 @@ body{
 .fa-check-circle{
     color:#6eb200;
 }
+.text p{
+	font-family:'Permanent Marker', cursive;
+	font-size:70px;
+	text-shadow:2px 3px 2px red;
+	position:absolute;
+	margin-top:300px;
+	margin-left:75px;
+	
+}
+
 .item p.text{
     position: absolute;
     padding:0;
@@ -104,6 +119,7 @@ body{
     color:#af0000;
     cursor: pointer;
 }
+
 .add-to-do{
     position: relative;
     width: 360px;
@@ -111,12 +127,11 @@ body{
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
-	border-radius:0 0 15px 15px;
 }
 .add-to-do i{
     position: absolute;
     font-size: 40px;
-    color: #28a428;
+    color: #4162f6;
 }
 
 .add-to-do input{
@@ -130,34 +145,26 @@ body{
     padding-left:10px;
 }
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #cc33ff;
-    font-family:'Permanent Marker', cursive;
+    color: rgb(70, 171, 71);
+    font-family:'Permanent Marker', cursive;;
     font-size: 20px;
 }
 .add-to-do input::-moz-placeholder { /* Firefox 19+ */
-    color: #4162f6;
-    font-family:'Permanent Marker', cursive;
+    color: rgb(70, 171, 71);
+    font-family:'Permanent Marker', cursive;;
     font-size: 20px;
 }
 .add-to-do input:-ms-input-placeholder { /* IE 10+ */
-    color: #4162f6;
-    font-family:'Permanent Marker', cursive;
+    color: rgb(70, 171, 71);
+    font-family:'Permanent Marker', cursive;;
     font-size: 20px;
 }
 .add-to-do input:-moz-placeholder { /* Firefox 18- */
     color: #4162f6;
-    font-family:'Permanent Marker', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
 }
-.text p{
-	margin-top:300px;
-	margin-left:60px;
-	position:absolute;
-	font-family:'Permanent Marker', cursive;
-	font-size: 70px;
-	color:#000;
-	text-shadow:2px 2px 5px green;
-}
+
 
 
 
